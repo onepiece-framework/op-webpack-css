@@ -1,0 +1,56 @@
+/**
+ * app-skeleton-3:/html/css/op/notice.css
+ *
+ * @creation  2017-07-31
+ * @version   1.0
+ * @package   app-skeleton
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+div.OP_NOTICE {
+	_border: 1px solid black;
+	font-size: 9pt;
+}
+
+div.OP_NOTICE * {
+	font-size: inherit;
+}
+
+div.OP_NOTICE > div {
+	margin:  0;
+	padding: 0;
+	margin-top:  0.5em;
+	margin-left: 0.5em;
+}
+
+div.OP_NOTICE > div > div.message {
+	margin:  0;
+	padding: 0;
+}
+
+div.OP_NOTICE > div > div.message > p:nth-child(1) {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+div.OP_NOTICE > div > div.message > p:nth-child(2) {
+	font-size: 11pt;
+	font-style: italic;
+}
+
+div.OP_NOTICE td.file {
+
+}
+
+div.OP_NOTICE td.line {
+	text-align: right;
+}
+
+div.OP_NOTICE td.function span.args:before {
+	content: '(';
+}
+
+div.OP_NOTICE td.function span.args:after {
+	content: ')';
+}

@@ -1,0 +1,56 @@
+/**
+ * app-skeleton-3:/html/css/op/arg.css
+ *
+ * @creation  2017-07-31
+ * @version   1.0
+ * @package   app-skeleton
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+span.args > span.arg {
+	_border: 1px solid black;
+}
+
+span.args > span.arg:not(:last-child):after {
+	margin-right: 0.25em;
+	content: ',';
+}
+
+span.args > span.arg > span.string:before,
+span.args > span.arg > span.string:after {
+	content: '"';
+}
+
+span.args > span.arg > span.boolean.true {
+	color: #0000f0;
+}
+
+span.args > span.arg > span.boolean.false {
+	color: #f00000;
+}
+
+span.args > span.arg > span.null {
+	color: #f00000;
+}
+
+span.args > span.arg > span.integer {
+
+}
+
+span.args > span.arg > span.double {
+	font-style: italic;
+}
+
+span.args > span.arg > span.array,
+span.args > span.arg > span.object {
+	color: #00d030;
+}
+
+span.args > span.arg > span.string > span.meta {
+	color: #c0c0c0;
+}
+
+span.args > span.arg > span.string > span.meta.space {
+	text-decoration: underline;
+}
