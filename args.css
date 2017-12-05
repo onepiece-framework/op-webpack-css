@@ -8,49 +8,50 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-span.args > span.arg {
-	_border: 1px solid black;
-}
-
-span.args > span.arg:not(:last-child):after {
+div.OP_MARK span.arg:not(:last-child):after {
 	margin-right: 0.25em;
 	content: ',';
 }
 
-span.args > span.arg > span.string:before,
-span.args > span.arg > span.string:after {
+span.args > span.arg.quote:before,
+span.args > span.arg.quote:after {
 	content: '"';
 }
 
-span.args > span.arg > span.boolean.true {
+span.args > span.arg.boolean.true {
 	color: #0000f0;
 }
 
-span.args > span.arg > span.boolean.false {
+span.args > span.arg.boolean.false {
 	color: #f00000;
 }
 
-span.args > span.arg > span.null {
+span.args > span.null {
 	color: #f00000;
 }
 
-span.args > span.arg > span.integer {
+span.args > span.arg.number {
+	_font-weight: bold;
+	_font-style: italic;
+}
+
+span.args > span.arg.integer {
 
 }
 
-span.args > span.arg > span.double {
-	font-style: italic;
+span.args > span.arg.double {
+
 }
 
-span.args > span.arg > span.array,
-span.args > span.arg > span.object {
+span.args > span.arg.array,
+span.args > span.arg.object {
 	color: #00d030;
 }
 
-span.args > span.arg > span.string > span.meta {
+span.args > span.arg.string > span.meta {
 	color: #c0c0c0;
 }
 
-span.args > span.arg > span.string > span.meta.space {
+span.args > span.arg.string > span.meta.space {
 	text-decoration: underline;
 }
