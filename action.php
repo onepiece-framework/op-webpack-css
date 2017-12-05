@@ -1,6 +1,6 @@
 <?php
 /**
- * op-skeleton-3:/html/css/op/action.php
+ * app-webpack-css:/action.php
  *
  * @creation  2017-06-29
  * @version   1.0
