@@ -8,8 +8,11 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
+/** FOR FOOTER NOTICE
+ *
+ */
+
 div.OP_NOTICE {
-	_border: 1px solid black;
 	font-size: 9pt;
 }
 
@@ -54,6 +57,19 @@ div.OP_NOTICE td.function span.args:before {
 div.OP_NOTICE td.function span.args:after {
 	content: ')';
 }
+
+div.OP_NOTICE td.function span.args > span.arg > span.string {
+	color: #ccc;
+}
+
+div.OP_NOTICE td.function span.args > span.arg > span.string:before,
+div.OP_NOTICE td.function span.args > span.arg > span.string:after {
+	content: '"';
+}
+
+/** FOR DESKTOP NOTICE
+ *
+ */
 
 #OP_NOTICE_AREA {
 	position: fixed;
