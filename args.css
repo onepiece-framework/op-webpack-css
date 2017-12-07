@@ -8,50 +8,50 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-div.OP_MARK span.arg:not(:last-child):after {
+span.args > span.arg:not(:last-child):after {
 	margin-right: 0.25em;
 	content: ',';
 }
 
-span.args > span.arg.quote:before,
-span.args > span.arg.quote:after {
+span.args > span.arg > span.quote:before,
+span.args > span.arg > span.quote:after {
 	content: '"';
 }
 
-span.args > span.arg.boolean.true {
+span.args > span.arg > span.boolean.true {
 	color: #0000f0;
 }
 
-span.args > span.arg.boolean.false {
+span.args > span.arg > span.boolean.false {
 	color: #f00000;
 }
 
-span.args > span.null {
+span.args > span.arg > span.null {
 	color: #f00000;
 }
 
-span.args > span.arg.number {
+span.args > span.arg > span.number {
 	_font-weight: bold;
 	_font-style: italic;
 }
 
-span.args > span.arg.integer {
+span.args > span.arg > span.integer {
 
 }
 
-span.args > span.arg.double {
+span.args > span.arg > span.double {
 
 }
 
-span.args > span.arg.array,
-span.args > span.arg.object {
+span.args > span.arg > span.array,
+span.args > span.arg > span.object {
 	color: #00d030;
 }
 
-span.args > span.arg.string > span.meta {
+span.args > span.arg > span.string > span.meta {
 	color: #c0c0c0;
 }
 
-span.args > span.arg.string > span.meta.space {
+span.args > span.arg > span.string > span.meta.space {
 	text-decoration: underline;
 }
