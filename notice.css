@@ -8,6 +8,13 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
+<?php
+	$request = Http::Request();
+	if(!$which = ifset($request['notice']) ){
+		$which = ifset($request['color']);
+	}
+?>
+
 /** FOR FOOTER NOTICE
  *
  */
@@ -59,7 +66,19 @@ div.OP_NOTICE td.function span.args:after {
 }
 
 div.OP_NOTICE td.function span.args > span.arg > span.string {
-	color: #ccc;
+	<?php
+	switch( $which ){
+		case 'black':
+			$color = '#ccc';
+			break;
+
+		case 'white':
+		default:
+			$color = '#999';
+		break;
+	}
+	?>
+	color: <?= $color ?>;
 }
 
 div.OP_NOTICE td.function span.args > span.arg > span.string:before,
