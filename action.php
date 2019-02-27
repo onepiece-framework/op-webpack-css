@@ -1,23 +1,15 @@
 <?php
 /**
- * app-webpack-css:/action.php
+ * app-skeleton-webpack:/css/op/action.php
  *
- * @creation  2017-06-29
+ * @creation  2018-04-12
  * @version   1.0
- * @package   op-skeleton
+ * @package   app-skeleton-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
-
 //	...
-$extension = 'css';
-
-//	...
-$files = [];
-$files[] = 'args';
-$files[] = 'mark';
-$files[] = 'dump';
-$files[] = 'notice';
-
-//	...
-Webpack::Run(__DIR__, $files, $extension);
+return [
+	__DIR__.'/args',
+	__DIR__.'/notice',
+];

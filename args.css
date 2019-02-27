@@ -1,9 +1,9 @@
 /**
- * app-webpack-css:/args.css
+ * app-skeleton-webpack:/css/op/args.css
  *
  * @creation  2017-07-31
  * @version   1.0
- * @package   app-skeleton
+ * @package   app-skeleton-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
@@ -19,20 +19,17 @@ span.args > span.arg > span.quote:after {
 }
 
 span.args > span.arg > span.boolean.true {
-	color: #0000f0;
+	color: blue;
 }
 
+span.args > span.arg > span.null,
 span.args > span.arg > span.boolean.false {
-	color: #f00000;
-}
-
-span.args > span.arg > span.null {
-	color: #f00000;
+	color: red;
 }
 
 span.args > span.arg > span.number {
 	_font-weight: bold;
-	_font-style: italic;
+	font-style: italic;
 }
 
 span.args > span.arg > span.integer {
@@ -43,9 +40,12 @@ span.args > span.arg > span.double {
 
 }
 
-span.args > span.arg > span.array,
+span.args > span.arg > span.array {
+	color: purple;
+}
+
 span.args > span.arg > span.object {
-	color: #00d030;
+	color: green;
 }
 
 span.args > span.arg > span.string > span.meta {
