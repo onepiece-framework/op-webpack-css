@@ -64,6 +64,12 @@ body.body form.OP label {
 	margin-right: 0.5em;
 }
 
+body.body form.OP input:disabled {
+	background-color: var(--color-bg-disabled);
+	border-color:     var(--color-border-disabled);
+	cursor: not-allowed;;
+} 
+
 body.body form.OP label.read-only,
 body.body form.OP input:read-only,
 body.body form.OP textarea:read-only {
