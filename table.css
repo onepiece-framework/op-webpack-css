@@ -40,6 +40,12 @@ body.body table.border:not(.none) td {
 	border: 1px solid var(--table-border-color);
 }
 
+/* Draw stripes color */
+body.body table.stripe  tr:nth-child(even),
+body.body table.stripes tr:nth-child(even) {
+	background-color: var(--table-background-color-stripes);
+}
+
 body.body th.left, 
 body.body td.left {
 	text-align: left;
