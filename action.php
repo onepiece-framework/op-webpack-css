@@ -37,5 +37,6 @@ return [
 	__DIR__.'/pager',
 	__DIR__.'/tips',
 	__DIR__.'/markdown',
+	__DIR__.'/display',
 	__DIR__.'/debug',
 ];
