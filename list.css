@@ -16,4 +16,5 @@ body.body ol {
 
 body.body li {
 	margin-left: 2.5em;
+	padding-inline-start: 0;
 }
