@@ -11,6 +11,7 @@
 return [
 	__DIR__.'/reset',
 	__DIR__.'/root',
+	__DIR__.'/html',
 	__DIR__.'/body',
 	__DIR__.'/border',
 	__DIR__.'/font',
