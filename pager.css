@@ -39,7 +39,7 @@ body.body .OP.pager span.backward:after {
  *
  */
 body.body .OP.pager span.omit:after {
-	content:"…";
+	content:"...";
 }
 
 /** Clickable page number block.
