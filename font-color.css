@@ -9,11 +9,14 @@
  */
 
 body.body .blue,
+body.body .true,
 body.body .success {
 	color: blue;
 }
 
 body.body .red,
+body.body .null,
+body.body .false,
 body.body .fail,
 body.body .failed,
 body.body .failure,
