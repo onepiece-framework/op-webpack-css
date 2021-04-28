@@ -1,9 +1,9 @@
 <?php
-/** op-module-webpack-css-common:/css/common/action.php
+/** op-module-webpack-css-common:/action.php
  *
  * @created   2018-04-12
  * @version   1.0
- * @package   op-module-webpack
+ * @package   op-module-webpack-css-common
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
