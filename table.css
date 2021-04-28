@@ -27,6 +27,12 @@ body.body .table .tr .th {
 	text-align:  center;
 }
 
+/* Table cells collapse settings */
+body.body  table:not(.separate),
+body.body .table:not(.separate) {
+	border-collapse: collapse;
+}
+
 body.body th.left, 
 body.body td.left {
 	text-align: left;
