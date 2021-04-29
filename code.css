@@ -21,6 +21,7 @@ body.body .code {
 	border: 1px solid var(--code-color-border);
 
 	overflow: scroll;
+	line-height: 100%;
 }
 
 /* Separate to inline code */
