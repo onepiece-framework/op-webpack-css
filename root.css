@@ -9,6 +9,7 @@
  */
 
 :root {
+	--root-hue:                   0;
 	--root-font-size:          16px;
 	--root-color-text:         #555;
 	--root-color-disabled:     #bbb;
