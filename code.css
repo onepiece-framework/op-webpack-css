@@ -12,14 +12,20 @@ body.body  code,
 body.body .code {
 	font-family: "Courier New", Consolas, monospace;
 	border-radius: 0.2em;
-	white-space: pre;
 
 	color: var(--code-color-text);
 	background-color: var(--code-color-background);
-	border: 1px solid var(--code-color-border);
 
 	overflow: scroll;
 	line-height: 100%;
+}
+
+body.body code {
+	white-space: pre;
+}
+
+body.body .code {
+	border: 1px solid var(--code-color-border);
 }
 
 /* Separate to inline code */
