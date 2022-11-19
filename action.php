@@ -39,4 +39,6 @@ return [
 	__DIR__.'/markdown',
 	__DIR__.'/display',
 	__DIR__.'/debug',
+	__DIR__.'/padding',
+	__DIR__.'/margin',
 ];
