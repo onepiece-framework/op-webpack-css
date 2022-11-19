@@ -37,7 +37,7 @@
 	--table-background-color-stripes: hsl(0, 0%, 95%);
 }
 
-/* <?php if( \OP\Config::Get('layout')['darkmode'] ?? null ): ?> */
+/* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
 /** For dark mode.
  *
  * @see       https://www.webcreatorbox.com/tech/dark-mode
