@@ -1,10 +1,15 @@
 About files in this directory
 ===
 
+This directory's css is for used of onepiece-framework.
+If used for only your application is please stored to "app:/css/" directory.
+
+# About files in this directory
+
  The CSS file in this directory affects the entire site.
  That means it affects all layouts.
  If you want to reflect the style only in a specific layout,
- Change the css file in the "asset/layout/{$layout_name}/css" directory.
+ Change the css file in the "asset:/layout/{$layout_name}/css" directory.
 
 # Usage
 
@@ -14,10 +19,10 @@ About files in this directory
 
 ```
 <div class="table">
-　<div class="tr">
-　　<div class="th">table head</div>
-　　<div class="td">table data</div>
-　</div>
+  <div class="tr">
+    <div class="th">table head</div>
+    <div class="td">table data</div>
+  </div>
 </div>
 ```
 
