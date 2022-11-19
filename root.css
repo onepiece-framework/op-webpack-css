@@ -15,9 +15,9 @@
 	--root-color-disabled:     #bbb;
 	--root-color-background:   #fff;
 	--root-color-border:       #333;
-	--root-color-link:         #3170C3;
-	--root-color-visited:      #3170C3;
-	--root-color-hover:        #3170C3;
+	--root-color-link:         hsl(200, 75%, 30%);
+	--root-color-visited:      hsl(300, 90%, 40%);
+	--root-color-hover:        hsl(200, 85%, 30%);
 	--root-color-true:         #00f;
 	--root-color-false:        #f00;
 	--root-color-null:         #f00;
@@ -48,9 +48,9 @@
 		--root-color-text:         #ccc;
 		--root-color-background:   #2c2c2c;
 		--root-color-border:       #aaa;
-		--root-color-link:         #00a5ff;
-		--root-color-visited:      #c951ff;
-		--root-color-hover:        #0f0;
+		--root-color-link:         hsl(200, 85%, 80%);
+		--root-color-visited:      hsl(300, 85%, 80%);
+		--root-color-hover:        hsl(200, 85%, 90%);
 		--root-color-true:         #99f;
 		--root-color-false:        #f99;
 		--root-color-null:         #f99;
