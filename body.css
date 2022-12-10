@@ -15,4 +15,6 @@ body.body {
 	background-color: var(--root-color-background);
 	border-color:     var(--root-color-border);
 	font-size:        var(--root-font-size);
+	/* https://nanto.asablo.jp/blog/2022/12/09/9546683 */
+	scrollbar-gutter: auto;
 }
