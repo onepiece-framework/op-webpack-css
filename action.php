@@ -41,4 +41,5 @@ return [
 	__DIR__.'/debug',
 	__DIR__.'/padding',
 	__DIR__.'/margin',
+	__DIR__.'/args',
 ];
