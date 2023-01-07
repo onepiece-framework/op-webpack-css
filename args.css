@@ -48,7 +48,7 @@ span.args > span.arg > span.object {
 }
 
 span.args > span.arg > span.string > span.meta {
-	color: #c0c0c0;
+	color: var(--args-meta-color);
 }
 
 span.args > span.arg > span.string > span.meta.space {
