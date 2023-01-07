@@ -51,9 +51,9 @@
 		--root-color-link:         hsl(200, 85%, 80%);
 		--root-color-visited:      hsl(300, 85%, 80%);
 		--root-color-hover:        hsl(200, 85%, 90%);
-		--root-color-true:         #99f;
-		--root-color-false:        #f99;
-		--root-color-null:         #f99;
+		--root-color-true:         #afafff;
+		--root-color-false:        #f09090;
+		--root-color-null:         #f09090;
 		--root-color-green:        #69f041;
 		--code-color-text:         hsl(0, 0%, 90%);
 		--code-color-background:   hsl(0, 0%, 10%);
