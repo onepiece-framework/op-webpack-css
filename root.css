@@ -35,6 +35,7 @@
 	--color-border-disabled:   hsl(0, 0%, 50%);
 	--table-border-color:      hsl(0, 0%, 50%);
 	--table-background-color-stripes: hsl(0, 0%, 95%);
+	--args-meta-color:         hsl(0, 0%, 80%);
 }
 
 /* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
@@ -58,6 +59,7 @@
 		--code-color-text:         hsl(0, 0%, 90%);
 		--code-color-background:   hsl(0, 0%, 10%);
 		--code-color-border:       hsl(0, 0%, 50%);
+		--args-meta-color:         hsl(0, 0%, 50%);
 	}
 }
 /* <?php endif; ?> */
