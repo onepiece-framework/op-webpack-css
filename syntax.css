@@ -1,0 +1,133 @@
+
+/** op-webpack-css:/syntax.css
+ *
+ * @created   2023-01-18
+ * @version   1.0
+ * @package   op-webpack-css
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+:root {
+	--syntax-hue:    0;
+	--syntax-sat: 100%;
+	--syntax-lum: 100%;
+
+	--syntax-meta:     hsl(  0,   0%,  0%);
+	--syntax-comment:  hsl(  0,   0%, 50%);
+	--syntax-string:   hsl(  0, 100%, 50%);
+	--syntax-variable: hsl(240, 100%, 50%);
+
+	--syntax-literal:  hsl(260, 100%, 50%);
+	--syntax-true:     hsl(280, 100%, 50%);
+	--syntax-false:    hsl(300, 100%, 50%);
+	--syntax-null:     hsl(320, 100%, 50%);
+
+	--syntax-keyword:  hsl(120,  50%, 50%);
+	--syntax-return:   hsl(260,  50%, 50%);
+	--syntax-new:      hsl(220,  50%, 50%);
+	--syntax-private:  hsl(280,  50%, 50%);
+	--syntax-public:   hsl(220,  50%, 50%);
+
+	--syntax-built_in: hsl(220,  50%, 50%);
+
+	--syntax-title:    hsl(120, 100%,  25%);
+	--syntax-class:    hsl(100,  50%,  50%);
+	--syntax-function: hsl(100,  50%,  50%);
+	--syntax-OP:       hsl( 40, 100%,  50%);
+}
+
+/* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
+/** For dark mode.
+ *
+ * @see       https://www.webcreatorbox.com/tech/dark-mode
+ * @created   2019-11-19
+ */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--syntax-hue:    0;
+		--syntax-sat:  50%;
+		--syntax-lum:  50%;
+	}
+}
+/* <?php endif; ?> */
+
+span.hljs-meta {
+	color: var(--syntax-meta);
+}
+
+span.hljs-comment {
+	color: var(--syntax-comment);
+}
+
+span.hljs-string {
+	color: var(--syntax-string);
+}
+span.hljs-subst {
+	color: var(--syntax-variable);
+}
+
+span.hljs-variable {
+	color: var(--syntax-variable);
+}
+
+span.hljs-literal {
+	color: var(--syntax-literal);
+}
+
+span.hljs-literal {
+	color: var(--syntax-literal);
+}
+
+span.hljs-literal.null {
+	color: var(--syntax-null);
+}
+
+span.hljs-literal.true {
+	color: var(--syntax-true);
+}
+
+span.hljs-literal.false {
+	color: var(--syntax-false);
+}
+
+span.hljs-keyword {
+	color: var(--syntax-keyword);
+}
+
+span.hljs-keyword.return {
+	color: var(--syntax-return);
+}
+
+span.hljs-keyword.new {
+	color: var(--syntax-new);
+}
+
+span.hljs-keyword.private {
+	color: var(--syntax-private);
+}
+
+span.hljs-keyword.public {
+	color: var(--syntax-public);
+}
+
+span.hljs-built_in {
+	color: var(--syntax-built_in);
+}
+
+span.hljs-title {
+	color: var(--syntax-title);
+}
+
+span.hljs-title.class_ {
+	color: var(--syntax-class);
+}
+
+span.hljs-title.function_ {
+	color: var(--syntax-function);
+}
+
+span.hljs-title.OP {
+	color: var(--syntax-OP);
+}
+
