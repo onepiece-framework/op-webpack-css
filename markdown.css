@@ -10,6 +10,8 @@
 
 body.body .markdown {
 	margin: 0;
+	font-family: monospace;
+	white-space: pre-wrap;
 }
 
 body.body .markdown table,
@@ -28,6 +30,18 @@ body.body .markdown table {
 body.body .markdown th,
 body.body .markdown td {
 	padding: 0.2em 0.5em;
+}
+
+body.body .markdown h1 {
+	_border: 1px solid black;
+	margin:  0;
+	padding: 0;
+}
+
+body.body .markdown p {
+	_border: 1px solid black;
+	margin:  0;
+	padding: 0;
 }
 
 /*
