@@ -1,0 +1,172 @@
+
+/** op-webpack-css:/color.css
+ *
+ * @created   2023-01-20
+ * @version   1.0
+ * @package   op-webpack-css
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+/** Reference sites
+ * http://www.colorem.net/en/?color=red
+ * https://web.havincoffee.com/css/value/color/func-hsla.html 
+ */
+:root {
+	--color-hue:                             0;
+	--color-black:      hsl(  0,   0%,   0%);
+	--color-gray:       hsl(  0,   0%,  75%);
+	--color-silver:     hsl(234,  67%,  94%);
+	--color-ivory:      hsl( 60, 100%,  97%);
+	--color-snow:       hsl(  0, 100%,  99%);
+	--color-white:      hsl(  0,   0%, 100%);
+	--color-red:        hsl(  0, 100%,  50%);
+	--color-scarlet:    hsl(  0,  72%,  32%);
+	--color-brown:      hsl(  0,  51%,  33%);
+	--color-chocolate:  hsl( 25,  75%,  47%);
+	--color-copper:     hsl( 29,  57%,  46%);
+	--color-orange:     hsl( 39, 100%,  50%);
+	--color-gold:       hsl( 51, 100%,  50%);
+	--color-olive:      hsl( 60, 100%,  25%);
+	--color-yellow:     hsl( 60, 100%,  50%);
+	--color-lime:       hsl(120, 100%,  50%);
+	--color-green:      hsl(120, 100%,  25%);
+	--color-lightgreen: hsl(120,  73%,  75%);
+	--color-skyblue:    hsl(197,  71%,  73%);
+	--color-cyan:       hsl(180, 100%,  50%);
+	--color-lavender:   hsl(240,  67%,  94%);
+	--color-blue:       hsl(240, 100%,  50%);
+	--color-indigo:     hsl(275, 100%,  25%);
+	--color-purple:     hsl(277,  87%,  53%);
+	--color-magenta:    hsl(300, 100%,  50%);
+	--color-rose:       hsl(312, 100%,  50%);
+	--color-plum:       hsl(300,  47%,  75%);
+	--color-violet:     hsl(300,  76%,  72%);
+	--color-pink:       hsl(350, 100%,  88%);
+	--color-apple:      hsl(353,  55%,  55%);
+}
+
+.color.black {
+	color: var(--color-black);
+}
+
+.color.gray {
+	color: var(--color-gray);
+}
+
+.color.silver {
+	color: var(--color-silver);
+}
+
+.color.ivory {
+	color: var(--color-ivory);
+}
+
+.color.snow {
+	color: var(--color-snow);
+}
+
+.color.white {
+	color: var(--color-white);
+}
+
+.color.red {
+	color: var(--color-red);
+}
+
+.color.scarlet {
+	color: var(--color-scarlet);
+}
+
+.color.brown {
+	color: var(--color-brown);
+}
+
+.color.chocolate {
+	color: var(--color-chocolate);
+}
+
+.color.copper {
+	color: var(--color-copper);
+}
+
+.color.orange {
+	color: var(--color-orange);
+}
+
+.color.gold {
+	color: var(--color-gold);
+}
+
+.color.olive {
+	color: var(--color-olive);
+}
+
+.color.yellow {
+	color: var(--color-yellow);
+}
+
+.color.lime {
+	color: var(--color-lime);
+}
+
+.color.green {
+	color: var(--color-green);
+}
+
+.color.lightgreen {
+	color: var(--color-lightgreen);
+}
+
+.color.skyblue {
+	color: var(--color-skyblue);
+}
+
+.color.cyan {
+	color: var(--color-cyan);
+}
+
+.color.lavender {
+	color: var(--color-lavender);
+}
+
+.color.blue {
+	color: var(--color-blue);
+}
+
+.color.indigo {
+	color: var(--color-indigo);
+}
+
+.color.purple {
+	color: var(--color-purple);
+}
+
+.color.magenta {
+	color: var(--color-magenta);
+
+}
+
+.color.rose {
+	color: var(--color-rose);
+
+}
+
+.color.plum {
+	color: var(--color-plum);
+
+}
+
+.color.violet {
+	color: var(--color-violet);
+
+}
+
+.color.pink {
+	color: var(--color-pink);
+
+}
+
+.color.apple {
+	color: var(--color-apple);
+}

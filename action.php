@@ -42,5 +42,6 @@ return [
 	__DIR__.'/padding',
 	__DIR__.'/margin',
 	__DIR__.'/args',
+	__DIR__.'/color',
 	__DIR__.'/syntax',
 ];
