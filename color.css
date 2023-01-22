@@ -44,7 +44,28 @@
 	--color-violet:     hsl(300,  76%,  72%);
 	--color-pink:       hsl(350, 100%,  88%);
 	--color-apple:      hsl(353,  55%,  55%);
+
+	--color-border:            hsla(  0,   0%,   0%, 1);
+	--color-hover-border:      hsla(240,  50%,  50%, 1);
+	--color-hover-background:  hsla(240,  90%,  90%, 1);
 }
+
+/* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
+/** For dark mode.
+ *
+ * @see       https://www.webcreatorbox.com/tech/dark-mode
+ * @created   2019-11-19
+ */
+@media (prefers-color-scheme: dark) {
+	:root {
+	--color-hue:                             0;
+
+	--color-border:            hsla(  0, 100%, 100%, 1);
+	--color-hover-border:      hsla(240, 50%, 50%, 1);
+	--color-hover-background:  hsla(240, 80%, 80%, 1);
+	}
+}
+/* <?php endif; ?> */
 
 .color.black {
 	color: var(--color-black);
