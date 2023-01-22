@@ -45,9 +45,36 @@
  */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--syntax-hue:    0;
-		--syntax-sat:  50%;
-		--syntax-lum:  50%;
+	--syntax-hue:    0;
+	--syntax-sat:  50%;
+	--syntax-lum:  50%;
+
+	--syntax-meta:     hsl(  0, 100%, 90%);
+	/*
+	--syntax-comment:  hsl(  0,   0%, 50%);
+	*/
+	--syntax-string:   hsl(  0, 100%, 65%);
+	--syntax-variable: hsl(200, 100%, 50%);
+
+	--syntax-literal:  hsl(260, 100%, 50%);
+	--syntax-true:     hsl(220, 100%, 80%);
+	/*
+	--syntax-false:    hsl(300, 100%, 50%);
+	--syntax-null:     hsl(320, 100%, 50%);
+
+	--syntax-keyword:  hsl(120,  50%, 50%);
+	--syntax-return:   hsl(260,  50%, 50%);
+	--syntax-new:      hsl(220,  50%, 50%);
+	--syntax-private:  hsl(280,  50%, 50%);
+	--syntax-public:   hsl(220,  50%, 50%);
+
+	--syntax-built_in: hsl(220,  50%, 50%);
+
+	--syntax-title:    hsl(120, 100%,  25%);
+	--syntax-class:    hsl(100,  50%,  50%);
+	--syntax-function: hsl(100,  50%,  50%);
+	--syntax-OP:       hsl( 40, 100%,  50%);
+	*/
 	}
 }
 /* <?php endif; ?> */
