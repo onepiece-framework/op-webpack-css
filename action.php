@@ -30,7 +30,6 @@ return [
 	__DIR__.'/form-button',
 	__DIR__.'/table',
 	__DIR__.'/cursor',
-	__DIR__.'/wai-aria',
 	__DIR__.'/appearance',
 	__DIR__.'/other',
 	__DIR__.'/breadcrumbs',
