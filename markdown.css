@@ -44,6 +44,15 @@ body.body .markdown p {
 	padding: 0;
 }
 
+body.body .markdown ol, ul {
+	margin:  0;
+	padding: 0;
+}
+
+body.body .markdown li {
+	_border: 1px solid #333;
+}
+
 /*
 body.body .markdown {
   counter-reset: chapter;
