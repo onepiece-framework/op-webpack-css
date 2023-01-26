@@ -43,4 +43,5 @@ return [
 	__DIR__.'/args',
 	__DIR__.'/color',
 	__DIR__.'/syntax',
+	__DIR__.'/Translate_Language',
 ];
