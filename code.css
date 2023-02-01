@@ -8,6 +8,8 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
+@layer code {
+
 body.body  code,
 body.body .code {
 	font-family: "Courier New", Consolas, monospace;
@@ -43,4 +45,6 @@ body.body div.code {
 body.body span.code {
 	margin:  .5em;
 	padding: .5em;
+}
+
 }

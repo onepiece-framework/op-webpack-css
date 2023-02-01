@@ -8,6 +8,8 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
+@layer syntax {
+
 :root {
 	--syntax-hue:    0;
 	--syntax-sat: 100%;
@@ -158,3 +160,4 @@ span.hljs-title.OP {
 	color: var(--syntax-OP);
 }
 
+}

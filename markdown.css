@@ -8,6 +8,8 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
+@layer markdown {
+
 body.body .markdown {
 	margin: 0;
 	font-family: monospace;
@@ -53,6 +55,8 @@ body.body .markdown ol, ul {
 
 body.body .markdown li {
 	_border: 1px solid #333;
+}
+
 }
 
 /*
