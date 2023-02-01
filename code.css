@@ -10,13 +10,29 @@
 
 @layer code {
 
+:root {
+	--op-code-color-text:       hsl(100,  85%,  80%);
+	--op-code-color-background: hsl(100, 100%, 100%);
+	--op-code-color-border:     hsl(100,  85%,  80%);
+}
+
+/* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
+@media (prefers-color-scheme: dark) {
+	:root {
+	--op-code-color-text:       hsl(100,  10%,  90%);
+	--op-code-color-background: hsl(100,   0%,   7%);
+	--op-code-color-border:     hsl(100,   0%,  50%);
+	}
+}
+/* <?php endif; ?> */
+
 body.body  code,
 body.body .code {
 	font-family: "Courier New", Consolas, monospace;
 	border-radius: 0.2em;
 
-	color: var(--code-color-text);
-	background-color: var(--code-color-background);
+	color:            var(--op-code-color-text);
+	background-color: var(--op-code-color-background);
 
 	overflow: scroll;
 	line-height: 1.3em;
@@ -28,7 +44,7 @@ body.body code {
 }
 
 body.body .code {
-	border: 1px solid var(--code-color-border);
+	border: 1px solid var(--op-code-color-border);
 }
 
 /* Separate to inline code */
