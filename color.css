@@ -13,43 +13,46 @@
  * https://web.havincoffee.com/css/value/color/func-hsla.html 
  */
 :root {
-	--color-hue:                             0;
-	--color-black:      hsl(  0,   0%,   0%);
-	--color-gray:       hsl(  0,   0%,  75%);
-	--color-silver:     hsl(234,  67%,  94%);
-	--color-ivory:      hsl( 60, 100%,  97%);
-	--color-snow:       hsl(  0, 100%,  99%);
-	--color-white:      hsl(  0,   0%, 100%);
-	--color-red:        hsl(  0, 100%,  50%);
-	--color-scarlet:    hsl(  0,  72%,  32%);
-	--color-brown:      hsl(  0,  51%,  33%);
-	--color-chocolate:  hsl( 25,  75%,  47%);
-	--color-copper:     hsl( 29,  57%,  46%);
-	--color-orange:     hsl( 39, 100%,  50%);
-	--color-gold:       hsl( 51, 100%,  50%);
-	--color-olive:      hsl( 60, 100%,  25%);
-	--color-yellow:     hsl( 60, 100%,  50%);
-	--color-lime:       hsl(120, 100%,  50%);
-	--color-green:      hsl(120, 100%,  25%);
-	--color-lightgreen: hsl(120,  73%,  75%);
-	--color-skyblue:    hsl(197,  71%,  73%);
-	--color-cyan:       hsl(180, 100%,  50%);
-	--color-lavender:   hsl(240,  67%,  94%);
-	--color-blue:       hsl(240, 100%,  50%);
-	--color-indigo:     hsl(275, 100%,  25%);
-	--color-purple:     hsl(277,  87%,  53%);
-	--color-magenta:    hsl(300, 100%,  50%);
-	--color-rose:       hsl(312, 100%,  50%);
-	--color-plum:       hsl(300,  47%,  75%);
-	--color-violet:     hsl(300,  76%,  72%);
-	--color-pink:       hsl(350, 100%,  88%);
-	--color-apple:      hsl(353,  55%,  55%);
+	--op-color-hue:                             0;
+	--op-color-black:      hsl(  0,   0%,   0%);
+	--op-color-gray:       hsl(  0,   0%,  75%);
+	--op-color-silver:     hsl(234,  67%,  94%);
+	--op-color-ivory:      hsl( 60, 100%,  97%);
+	--op-color-snow:       hsl(  0, 100%,  99%);
+	--op-color-white:      hsl(  0,   0%, 100%);
+	--op-color-red:        hsl(  0, 100%,  50%);
+	--op-color-scarlet:    hsl(  0,  72%,  32%);
+	--op-color-brown:      hsl(  0,  51%,  33%);
+	--op-color-chocolate:  hsl( 25,  75%,  47%);
+	--op-color-copper:     hsl( 29,  57%,  46%);
+	--op-color-orange:     hsl( 39, 100%,  50%);
+	--op-color-gold:       hsl( 51, 100%,  50%);
+	--op-color-olive:      hsl( 60, 100%,  25%);
+	--op-color-yellow:     hsl( 60, 100%,  50%);
+	--op-color-lime:       hsl(120, 100%,  50%);
+	--op-color-green:      hsl(120, 100%,  25%);
+	--op-color-lightgreen: hsl(120,  73%,  75%);
+	--op-color-skyblue:    hsl(197,  71%,  73%);
+	--op-color-cyan:       hsl(180, 100%,  50%);
+	--op-color-lavender:   hsl(240,  67%,  94%);
+	--op-color-blue:       hsl(240, 100%,  50%);
+	--op-color-indigo:     hsl(275, 100%,  25%);
+	--op-color-purple:     hsl(277,  87%,  53%);
+	--op-color-magenta:    hsl(300, 100%,  50%);
+	--op-color-rose:       hsl(312, 100%,  50%);
+	--op-color-plum:       hsl(300,  47%,  75%);
+	--op-color-violet:     hsl(300,  76%,  72%);
+	--op-color-pink:       hsl(350, 100%,  88%);
+	--op-color-apple:      hsl(353,  55%,  55%);
 
-	--color-faintly:           hsla(  0,   0%,  90%, 1);
-	--color-clearly:           hsla(  0,   0%,  80%, 1);
-	--color-border:            hsla(  0,   0%,   0%, 1);
-	--color-hover-border:      hsla(240,  50%,  50%, 1);
-	--color-hover-background:  hsla(240,  90%,  90%, 1);
+	--op-color-faintly:           hsla(  0,   0%,  90%, 1);
+	--op-color-clearly:           hsla(  0,   0%,  80%, 1);
+	--op-color-border:            hsla(  0,   0%,   0%, 1);
+	--op-color-hover-border:      hsla(240,  50%,  50%, 1);
+	--op-color-hover-background:  hsla(240,  90%,  90%, 1);
+
+	--op-color-text:         hsl(0, 0%, 90%);
+	--op-color-background:   hsl(0, 0%, 10%);
 }
 
 /* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
@@ -60,138 +63,141 @@
  */
 @media (prefers-color-scheme: dark) {
 	:root {
-	--color-hue:                             0;
+	--op-color-hue:                             0;
 
-	--color-faintly:           hsla(  0,   0%,  10%, 1);
-	--color-clearly:           hsla(  0,   0%,  50%, 1);
-	--color-border:            hsla(  0, 100%, 100%, 1);
-	--color-hover-border:      hsla(240,  50%,  50%, 1);
-	--color-hover-background:  hsla(240,  80%,  80%, 1);
+	--op-color-faintly:           hsla(  0,   0%,  10%, 1);
+	--op-color-clearly:           hsla(  0,   0%,  50%, 1);
+	--op-color-border:            hsla(  0, 100%, 100%, 1);
+	--op-color-hover-border:      hsla(240,  50%,  50%, 1);
+	--op-color-hover-background:  hsla(240,  80%,  80%, 1);
+
+	--op-color-text:         hsl(0, 0%, 90%);
+	--op-color-background:   hsl(0, 0%, 10%);
 	}
 }
 /* <?php endif; ?> */
 
 .color.black {
-	color: var(--color-black);
+	color: var(--op-color-black);
 }
 
 .color.gray {
-	color: var(--color-gray);
+	color: var(--op-color-gray);
 }
 
 .color.silver {
-	color: var(--color-silver);
+	color: var(--op-color-silver);
 }
 
 .color.ivory {
-	color: var(--color-ivory);
+	color: var(--op-color-ivory);
 }
 
 .color.snow {
-	color: var(--color-snow);
+	color: var(--op-color-snow);
 }
 
 .color.white {
-	color: var(--color-white);
+	color: var(--op-color-white);
 }
 
 .color.red {
-	color: var(--color-red);
+	color: var(--op-color-red);
 }
 
 .color.scarlet {
-	color: var(--color-scarlet);
+	color: var(--op-color-scarlet);
 }
 
 .color.brown {
-	color: var(--color-brown);
+	color: var(--op-color-brown);
 }
 
 .color.chocolate {
-	color: var(--color-chocolate);
+	color: var(--op-color-chocolate);
 }
 
 .color.copper {
-	color: var(--color-copper);
+	color: var(--op-color-copper);
 }
 
 .color.orange {
-	color: var(--color-orange);
+	color: var(--op-color-orange);
 }
 
 .color.gold {
-	color: var(--color-gold);
+	color: var(--op-color-gold);
 }
 
 .color.olive {
-	color: var(--color-olive);
+	color: var(--op-color-olive);
 }
 
 .color.yellow {
-	color: var(--color-yellow);
+	color: var(--op-color-yellow);
 }
 
 .color.lime {
-	color: var(--color-lime);
+	color: var(--op-color-lime);
 }
 
 .color.green {
-	color: var(--color-green);
+	color: var(--op-color-green);
 }
 
 .color.lightgreen {
-	color: var(--color-lightgreen);
+	color: var(--op-color-lightgreen);
 }
 
 .color.skyblue {
-	color: var(--color-skyblue);
+	color: var(--op-color-skyblue);
 }
 
 .color.cyan {
-	color: var(--color-cyan);
+	color: var(--op-color-cyan);
 }
 
 .color.lavender {
-	color: var(--color-lavender);
+	color: var(--op-color-lavender);
 }
 
 .color.blue {
-	color: var(--color-blue);
+	color: var(--op-color-blue);
 }
 
 .color.indigo {
-	color: var(--color-indigo);
+	color: var(--op-color-indigo);
 }
 
 .color.purple {
-	color: var(--color-purple);
+	color: var(--op-color-purple);
 }
 
 .color.magenta {
-	color: var(--color-magenta);
+	color: var(--op-color-magenta);
 
 }
 
 .color.rose {
-	color: var(--color-rose);
+	color: var(--op-color-rose);
 
 }
 
 .color.plum {
-	color: var(--color-plum);
+	color: var(--op-color-plum);
 
 }
 
 .color.violet {
-	color: var(--color-violet);
+	color: var(--op-color-violet);
 
 }
 
 .color.pink {
-	color: var(--color-pink);
+	color: var(--op-color-pink);
 
 }
 
 .color.apple {
-	color: var(--color-apple);
+	color: var(--op-color-apple);
 }
