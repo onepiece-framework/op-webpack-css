@@ -11,32 +11,32 @@
 @layer syntax {
 
 :root {
-	--syntax-hue:    0;
-	--syntax-sat: 100%;
-	--syntax-lum: 100%;
+	--op-syntax-hue:    0;
+	--op-syntax-sat: 100%;
+	--op-syntax-lum: 100%;
 
-	--syntax-meta:     hsl(  0,   0%,  0%);
-	--syntax-comment:  hsl(  0,   0%, 50%);
-	--syntax-string:   hsl(  0, 100%, 50%);
-	--syntax-variable: hsl(240, 100%, 50%);
+	--op-syntax-meta:     hsl(  0,   0%,  0%);
+	--op-syntax-comment:  hsl(  0,   0%, 50%);
+	--op-syntax-string:   hsl(  0, 100%, 50%);
+	--op-syntax-variable: hsl(240, 100%, 50%);
 
-	--syntax-literal:  hsl(260, 100%, 50%);
-	--syntax-true:     hsl(280, 100%, 50%);
-	--syntax-false:    hsl(300, 100%, 50%);
-	--syntax-null:     hsl(320, 100%, 50%);
+	--op-syntax-literal:  hsl(260, 100%, 50%);
+	--op-syntax-true:     hsl(280, 100%, 50%);
+	--op-syntax-false:    hsl(300, 100%, 50%);
+	--op-syntax-null:     hsl(320, 100%, 50%);
 
-	--syntax-keyword:  hsl(120,  50%, 50%);
-	--syntax-return:   hsl(260,  50%, 50%);
-	--syntax-new:      hsl(220,  50%, 50%);
-	--syntax-private:  hsl(280,  50%, 50%);
-	--syntax-public:   hsl(220,  50%, 50%);
+	--op-syntax-keyword:  hsl(120,  50%, 50%);
+	--op-syntax-return:   hsl(260,  50%, 50%);
+	--op-syntax-new:      hsl(220,  50%, 50%);
+	--op-syntax-private:  hsl(280,  50%, 50%);
+	--op-syntax-public:   hsl(220,  50%, 50%);
 
-	--syntax-built_in: hsl(220,  50%, 50%);
+	--op-syntax-built_in: hsl(220,  50%, 50%);
 
-	--syntax-title:    hsl(120, 100%,  25%);
-	--syntax-class:    hsl(100,  50%,  50%);
-	--syntax-function: hsl(100,  50%,  50%);
-	--syntax-OP:       hsl( 40, 100%,  50%);
+	--op-syntax-title:    hsl(120, 100%,  25%);
+	--op-syntax-class:    hsl(100,  50%,  50%);
+	--op-syntax-function: hsl(100,  50%,  50%);
+	--op-syntax-OP:       hsl( 40, 100%,  50%);
 }
 
 /* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
@@ -47,117 +47,121 @@
  */
 @media (prefers-color-scheme: dark) {
 	:root {
-	--syntax-hue:    0;
-	--syntax-sat:  50%;
-	--syntax-lum:  50%;
+	--op-syntax-hue:    0;
+	--op-syntax-sat:  50%;
+	--op-syntax-lum:  50%;
 
-	--syntax-meta:     hsl(  0, 100%, 90%);
+	--op-syntax-meta:     hsl(  0, 100%, 90%);
 	/*
-	--syntax-comment:  hsl(  0,   0%, 50%);
+	--op-syntax-comment:  hsl(  0,   0%, 50%);
 	*/
-	--syntax-string:   hsl(  0, 100%, 65%);
-	--syntax-variable: hsl(200, 100%, 50%);
+	--op-syntax-string:   hsl(  0, 100%, 65%);
+	--op-syntax-variable: hsl(200, 100%, 50%);
 
-	--syntax-literal:  hsl(260, 100%, 50%);
-	--syntax-true:     hsl(220, 100%, 80%);
+	--op-syntax-literal:  hsl(260, 100%, 50%);
+	--op-syntax-true:     hsl(220, 100%, 80%);
 	/*
-	--syntax-false:    hsl(300, 100%, 50%);
-	--syntax-null:     hsl(320, 100%, 50%);
+	--op-syntax-false:    hsl(300, 100%, 50%);
+	--op-syntax-null:     hsl(320, 100%, 50%);
 
-	--syntax-keyword:  hsl(120,  50%, 50%);
-	--syntax-return:   hsl(260,  50%, 50%);
-	--syntax-new:      hsl(220,  50%, 50%);
-	--syntax-private:  hsl(280,  50%, 50%);
-	--syntax-public:   hsl(220,  50%, 50%);
+	--op-syntax-keyword:  hsl(120,  50%, 50%);
+	--op-syntax-return:   hsl(260,  50%, 50%);
+	--op-syntax-new:      hsl(220,  50%, 50%);
+	--op-syntax-private:  hsl(280,  50%, 50%);
+	--op-syntax-public:   hsl(220,  50%, 50%);
 
-	--syntax-built_in: hsl(220,  50%, 50%);
+	--op-syntax-built_in: hsl(220,  50%, 50%);
 
-	--syntax-title:    hsl(120, 100%,  25%);
-	--syntax-class:    hsl(100,  50%,  50%);
-	--syntax-function: hsl(100,  50%,  50%);
-	--syntax-OP:       hsl( 40, 100%,  50%);
+	--op-syntax-title:    hsl(120, 100%,  25%);
+	--op-syntax-class:    hsl(100,  50%,  50%);
+	--op-syntax-function: hsl(100,  50%,  50%);
+	--op-syntax-OP:       hsl( 40, 100%,  50%);
 	*/
 	}
 }
 /* <?php endif; ?> */
 
+code {
+	border: 1px solid black;
+}
+
 span.hljs-meta {
-	color: var(--syntax-meta);
+	color: var(--op-syntax-meta);
 }
 
 span.hljs-comment {
-	color: var(--syntax-comment);
+	color: var(--op-syntax-comment);
 }
 
 span.hljs-string {
-	color: var(--syntax-string);
+	color: var(--op-syntax-string);
 }
 span.hljs-subst {
-	color: var(--syntax-variable);
+	color: var(--op-syntax-variable);
 }
 
 span.hljs-variable {
-	color: var(--syntax-variable);
+	color: var(--op-syntax-variable);
 }
 
 span.hljs-literal {
-	color: var(--syntax-literal);
+	color: var(--op-syntax-literal);
 }
 
 span.hljs-literal {
-	color: var(--syntax-literal);
+	color: var(--op-syntax-literal);
 }
 
 span.hljs-literal.null {
-	color: var(--syntax-null);
+	color: var(--op-syntax-null);
 }
 
 span.hljs-literal.true {
-	color: var(--syntax-true);
+	color: var(--op-syntax-true);
 }
 
 span.hljs-literal.false {
-	color: var(--syntax-false);
+	color: var(--op-syntax-false);
 }
 
 span.hljs-keyword {
-	color: var(--syntax-keyword);
+	color: var(--op-syntax-keyword);
 }
 
 span.hljs-keyword.return {
-	color: var(--syntax-return);
+	color: var(--op-syntax-return);
 }
 
 span.hljs-keyword.new {
-	color: var(--syntax-new);
+	color: var(--op-syntax-new);
 }
 
 span.hljs-keyword.private {
-	color: var(--syntax-private);
+	color: var(--op-syntax-private);
 }
 
 span.hljs-keyword.public {
-	color: var(--syntax-public);
+	color: var(--op-syntax-public);
 }
 
 span.hljs-built_in {
-	color: var(--syntax-built_in);
+	color: var(--op-syntax-built_in);
 }
 
 span.hljs-title {
-	color: var(--syntax-title);
+	color: var(--op-syntax-title);
 }
 
 span.hljs-title.class_ {
-	color: var(--syntax-class);
+	color: var(--op-syntax-class);
 }
 
 span.hljs-title.function_ {
-	color: var(--syntax-function);
+	color: var(--op-syntax-function);
 }
 
 span.hljs-title.OP {
-	color: var(--syntax-OP);
+	color: var(--op-syntax-OP);
 }
 
 }
