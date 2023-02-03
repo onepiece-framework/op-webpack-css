@@ -29,7 +29,6 @@
 	--op-syntax-false:    hsl(300, 100%, 50%);
 	--op-syntax-null:     hsl(320, 100%, 50%);
 
-	--op-syntax-keyword:  hsl(120, 100%, 30%);
 	--op-syntax-return:   hsl(260,  50%, 50%);
 	--op-syntax-new:      hsl(220,  50%, 50%);
 	--op-syntax-private:  hsl(280,  50%, 50%);
@@ -37,8 +36,9 @@
 
 	--op-syntax-built_in: hsl(200, 190%, 80%);
 
-	--op-syntax-title:    hsl(120, 100%,  25%);
-	--op-syntax-class:    hsl(100,  50%,  50%);
+	--op-syntax-keyword:  hsl(140, 100%,  30%);
+	--op-syntax-title:    hsl(120, 100%,  30%);
+	--op-syntax-class:    hsl(120, 100%,  30%);
 	--op-syntax-function: hsl(150,  50%,  50%);
 	--op-syntax-OP:       hsl( 40, 100%,  50%);
 }
