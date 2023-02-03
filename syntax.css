@@ -15,6 +15,10 @@
 	--op-syntax-sat: 100%;
 	--op-syntax-lum: 100%;
 
+	--op-syntax-text:     hsl(  0,  10%,  10%);
+	--op-syntax-back:     hsl(  0,   0%,  95%);
+	--op-syntax-border:   hsl(  0,   0%,  75%);
+
 	--op-syntax-meta:     hsl(  0,   0%,  0%);
 	--op-syntax-comment:  hsl(  0,   0%, 50%);
 	--op-syntax-string:   hsl(  0, 100%, 50%);
@@ -25,17 +29,17 @@
 	--op-syntax-false:    hsl(300, 100%, 50%);
 	--op-syntax-null:     hsl(320, 100%, 50%);
 
-	--op-syntax-keyword:  hsl(120,  50%, 50%);
+	--op-syntax-keyword:  hsl(120, 100%, 30%);
 	--op-syntax-return:   hsl(260,  50%, 50%);
 	--op-syntax-new:      hsl(220,  50%, 50%);
 	--op-syntax-private:  hsl(280,  50%, 50%);
 	--op-syntax-public:   hsl(220,  50%, 50%);
 
-	--op-syntax-built_in: hsl(220,  50%, 50%);
+	--op-syntax-built_in: hsl(200, 190%, 80%);
 
 	--op-syntax-title:    hsl(120, 100%,  25%);
 	--op-syntax-class:    hsl(100,  50%,  50%);
-	--op-syntax-function: hsl(100,  50%,  50%);
+	--op-syntax-function: hsl(150,  50%,  50%);
 	--op-syntax-OP:       hsl( 40, 100%,  50%);
 }
 
@@ -50,6 +54,10 @@
 	--op-syntax-hue:    0;
 	--op-syntax-sat:  50%;
 	--op-syntax-lum:  50%;
+
+	--op-syntax-text:     hsl(  0, 100%, 100%);
+	--op-syntax-back:     hsl(  0,   0%,  10%);
+	--op-syntax-border:   hsl(  0,   0%,   0%);
 
 	--op-syntax-meta:     hsl(  0, 100%, 90%);
 	/*
@@ -82,7 +90,9 @@
 /* <?php endif; ?> */
 
 code {
-	border: 1px solid black;
+	color:            var(--op-syntax-text);
+	background-color: var(--op-syntax-back);
+	border: 1px solid var(--op-syntax-border);
 }
 
 span.hljs-meta {
@@ -158,10 +168,12 @@ span.hljs-title.class_ {
 
 span.hljs-title.function_ {
 	color: var(--op-syntax-function);
+	font-weight: bold;
 }
 
 span.hljs-title.OP {
 	color: var(--op-syntax-OP);
+	font-weight: bold;
 }
 
 }
