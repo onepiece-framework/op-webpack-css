@@ -52,7 +52,7 @@
 	--op-color-hover-background:  hsla(240,  90%,  90%, 1);
 
 	--op-color-text:         hsl(0, 0%, 90%);
-	--op-color-background:   hsl(0, 0%, 10%);
+	--op-color-back:         hsl(0, 0%, 10%);
 }
 
 /* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
@@ -72,7 +72,7 @@
 	--op-color-hover-background:  hsla(240,  80%,  80%, 1);
 
 	--op-color-text:         hsl(0, 0%, 90%);
-	--op-color-background:   hsl(0, 0%, 10%);
+	--op-color-back:         hsl(0, 0%, 10%);
 	}
 }
 /* <?php endif; ?> */
