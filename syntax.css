@@ -89,12 +89,6 @@
 }
 /* <?php endif; ?> */
 
-code {
-	color:            var(--op-syntax-text);
-	background-color: var(--op-syntax-back);
-	border: 1px solid var(--op-syntax-border);
-}
-
 span.hljs-meta {
 	color: var(--op-syntax-meta);
 }
