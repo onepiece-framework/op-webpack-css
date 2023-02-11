@@ -11,17 +11,17 @@
 @layer code {
 
 :root {
-	--op-code-color-text:       hsl(100,  85%,  80%);
-	--op-code-color-background: hsl(100, 100%, 100%);
-	--op-code-color-border:     hsl(100,  85%,  80%);
+	--op-code-color-text:       hsl(  0,  50%,   0%);
+	--op-code-color-back:       hsl(  0,   0%,  90%);
+	--op-code-color-border:     hsl(  0,   0%,  80%);
 }
 
 /* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
 @media (prefers-color-scheme: dark) {
 	:root {
-	--op-code-color-text:       hsl(100,  10%,  90%);
-	--op-code-color-background: hsl(100,   0%,   7%);
-	--op-code-color-border:     hsl(100,   0%,  50%);
+	--op-code-color-text:       hsl(  0,   0%, 100%);
+	--op-code-color-back:       hsl(  0,   0%,  20%);
+	--op-code-color-border:     hsl(  0,   0%,  30%);
 	}
 }
 /* <?php endif; ?> */
@@ -32,7 +32,8 @@ body.body .code {
 	border-radius: 0.2em;
 
 	color:            var(--op-code-color-text);
-	background-color: var(--op-code-color-background);
+	background-color: var(--op-code-color-back);
+	border: 1px solid var(--op-code-color-border);
 
 	overflow: scroll;
 	line-height: 1.3em;
@@ -42,10 +43,6 @@ body.body code {
 	white-space: pre;
 	margin: 0 0.25em;
 	padding:0 0.25em;
-}
-
-body.body .code {
-	border: 1px solid var(--op-code-color-border);
 }
 
 /* Separate to inline code */
