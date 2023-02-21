@@ -16,12 +16,20 @@ body.body .markdown {
 	white-space: pre-wrap;
 }
 
+body.body .markdown h1:not(:first-child) {
+	background-color: var(--op-color-slightly);
+}
+
+body.body .markdown h2 {
+	border-bottom: 1px solid var(--op-color-faintly);
+}
+
 body.body .markdown table,
 body.body .markdown th,
 body.body .markdown td {
 	border-width: 1px;
 	border-style: solid;
-	border-color: hsla( var(--root-hue), 80%, 40%, 1) !important;
+	border-color: hsla( var(--root-hue), 0%, 0%, 1) !important;
 }
 
 body.body .markdown table {
@@ -55,6 +63,8 @@ body.body .markdown ol, ul {
 
 body.body .markdown li {
 	_border: 1px solid #333;
+	margin-top:    0.25em;
+	margin-bottom: 0.25em;
 }
 
 }
