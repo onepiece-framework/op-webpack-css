@@ -42,6 +42,8 @@ body.body .markdown p {
 	_border: 1px solid black;
 	margin:  0;
 	padding: 0;
+	margin-top:    0.5em;
+	margin-bottom:   1em;
 }
 
 body.body .markdown ol, ul {
