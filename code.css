@@ -12,8 +12,8 @@
 
 :root {
 	--op-code-color-text:       hsl(  0,  50%,   0%);
-	--op-code-color-back:       hsl(  0,   0%,  90%);
-	--op-code-color-border:     hsl(  0,   0%,  80%);
+	--op-code-color-back:       hsl(  0,   0%,  95%);
+	--op-code-color-border:     hsl(  0,   0%,  90%);
 }
 
 /* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
