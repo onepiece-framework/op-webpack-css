@@ -54,6 +54,7 @@
 
 	--op-color-text:         hsl(0, 0%, 90%);
 	--op-color-back:         hsl(0, 0%, 10%);
+	--op-color-border:       hsl(0, 0%, 30%);
 }
 
 /* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
