@@ -17,10 +17,12 @@ body.body .markdown {
 }
 
 body.body .markdown h1:not(:first-child) {
+	padding-left: 0.25em;
 	background-color: var(--op-color-slightly);
 }
 
 body.body .markdown h2 {
+	padding-left: 0.25em;
 	border-bottom: 1px solid var(--op-color-faintly);
 }
 
