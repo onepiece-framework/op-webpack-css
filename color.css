@@ -76,6 +76,7 @@
 
 	--op-color-text:         hsl(0, 0%, 90%);
 	--op-color-back:         hsl(0, 0%, 10%);
+	--op-color-border:       hsl(0, 0%, 50%);
 	}
 }
 /* <?php endif; ?> */
