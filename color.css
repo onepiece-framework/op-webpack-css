@@ -71,7 +71,7 @@
 	--op-color-faintly:           hsla(  0,   0%,  20%, 1);
 	--op-color-clearly:           hsla(  0,   0%,  50%, 1);
 	--op-color-border:            hsla(  0, 100%, 100%, 1);
-	--op-color-hover-border:      hsla(240,  50%,  50%, 1);
+	--op-color-hover-border:      hsla(200,  50%,  50%, 1);
 	--op-color-hover-background:  hsla(240,  80%,  80%, 1);
 
 	--op-color-text:         hsl(0, 0%, 90%);
