@@ -57,7 +57,7 @@
 	--op-color-border:       hsl(0, 0%, 30%);
 }
 
-/* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
+/* <?php if( \OP\Config::Get('execute')['darkmode'] ?? true ): ?> */
 /** For dark mode.
  *
  * @see       https://www.webcreatorbox.com/tech/dark-mode
