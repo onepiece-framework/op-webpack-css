@@ -1,5 +1,5 @@
 
-/** op-module-webpack-css-common:/root.css
+/** op-webpack-css:/root.css
  *
  * @created   2018-10-26
  * @version   1.0
@@ -35,7 +35,7 @@
 	--args-meta-color:         hsl(0, 0%, 80%);
 }
 
-/* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
+/* <?php if( \OP\Config::Get('execute')['darkmode'] ?? true ): ?> */
 /** For dark mode.
  *
  * @see       https://www.webcreatorbox.com/tech/dark-mode
