@@ -1,0 +1,22 @@
+
+/** op-webpack-css:/Translate_Popup.css
+ *
+ * @created   2023-04-09
+ * @version   1.0
+ * @package   onepiece-framework.com
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+#translated_window {
+    padding: 0.2em 0.5em 0.15em;
+    color:   var(--op-color-text);
+    border:  0.5px solid var(--op-color-gray);
+    background: rgba(0, 0, 0, 0.75);
+}
+
+#translated_window code {
+    color:            var(--op-color-text);
+    border-color:     var(--op-color-border);
+    background-color: var(--op-color-back);
+}
