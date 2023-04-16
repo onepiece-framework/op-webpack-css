@@ -8,8 +8,6 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-@layer code {
-
 :root {
 	--op-code-color-text:       hsl(  0,  50%,   0%);
 	--op-code-color-back:       hsl(  0,   0%,  95%);
@@ -59,6 +57,4 @@ body.body div.code {
 body.body span.code {
 	margin:  .5em;
 	padding: .5em;
-}
-
 }
