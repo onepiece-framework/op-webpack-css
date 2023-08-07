@@ -44,4 +44,5 @@ return [
 	__DIR__.'/color',
 	__DIR__.'/syntax',
 	__DIR__.'/Translate_Language',
+    __DIR__.'/hover',
 ];

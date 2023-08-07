@@ -1,0 +1,30 @@
+
+/** op-webpack-css:/hover.css
+ *
+ * @created   2023-08-07
+ * @version   1.0
+ * @package   op-webpack-css
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+/** 
+ *
+ * @see https://zenn.dev/kagan/articles/css-hover-style
+ */
+@media (hover: hover) {
+    /* In case of link */
+    a:any-link:hover {
+        cursor: pointer;
+    }
+
+    /* In case of button */
+    button:enabled:hover {
+        cursor: pointer;
+    }
+
+    /* Any cases */
+    .button:where(:any-link, :enabled, summary):hover {
+        cursor: pointer;
+    }
+}
