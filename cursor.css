@@ -8,6 +8,7 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-body.body .pointer {
+body.body .pointer,
+body.body .cursor.pointer {
 	cursor: pointer;
 }
