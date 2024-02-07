@@ -13,7 +13,7 @@ body.body form.OP textarea,
 body.body form.OP button,
 body.body form.OP submit,
 body.body form.OP .button {
-	border:  1px solid var(--root-color-border);
+	border:  1px solid var(--color-border);
 	margin:  0.1em 0;
 	padding: 0.2em 0.4em;
 }
@@ -73,13 +73,13 @@ body.body form.OP input:disabled {
 body.body form.OP label.read-only,
 body.body form.OP input:read-only,
 body.body form.OP textarea:read-only {
-	color: cal( var(--root-color-text) / 2 );
+	color: cal( var(--color-text) / 2 );
 }
 
 body.body form.OP label.cursor.wait,
 body.body form.OP input.cursor.wait,
 body.body form.OP select.cursor.wait,
 body.body form.OP textarea.cursor.wait {
-	color: cal( var(--root-color-text) / 2 );
+	color: cal( var(--color-text) / 2 );
 	cursor: wait;
 }

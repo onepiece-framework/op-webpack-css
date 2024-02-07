@@ -1,9 +1,9 @@
 
-/** op-module-webpack-css-common:/body.css
+/** op-webpack-css:/body.css
  *
  * @created   2018-04-12
  * @version   1.0
- * @package   op-module-webpack-css-common
+ * @package   op-webpack-css
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
@@ -11,10 +11,10 @@
 body.body {
 	margin:  0;
 	padding: 0;
-	color:            var(--root-color-text);
-	background-color: var(--root-color-background);
-	border-color:     var(--root-color-border);
-	font-size:        var(--root-font-size);
+	color:            var(--color-text);
+	background-color: var(--color-background);
+	border-color:     var(--color-border);
+	font-size:        var(--font-size);
 	/* https://nanto.asablo.jp/blog/2022/12/09/9546683 */
 	scrollbar-gutter: auto;
 }
