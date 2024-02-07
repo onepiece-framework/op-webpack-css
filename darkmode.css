@@ -13,12 +13,7 @@
  */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--root-color-text:         #ddd;
-		--root-color-background:   #000;
-	}
-
-	body.body {
-		transition-property: color, background;
-		transition-duration: 0.5s;
+		/* darkmode base color */
+		--color-dark: #282828;
 	}
 }
