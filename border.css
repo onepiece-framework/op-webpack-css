@@ -9,7 +9,7 @@
  */
 
 body.body .border:not(.none) {
-	border-color: var(--root-color-border);
+	border-color: var(--color-border);
 	border-width: 1px;
 	border-style: solid;
 }

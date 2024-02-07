@@ -9,25 +9,25 @@
  */
 
 :root {
-	--root-hue:                   0;
-	--root-font-size:          16px;
-	--root-color-text:         #555;
-	--root-color-disabled:     #bbb;
-	--root-color-background:   #fff;
-	--root-color-border:       #333;
-	--root-color-link:         hsl(200, 75%, 30%);
-	--root-color-visited:      hsl(300, 90%, 40%);
-	--root-color-hover:        hsl(200, 85%, 30%);
-	--root-color-true:         #00f;
-	--root-color-false:        #f00;
-	--root-color-null:         #f00;
-	--root-color-blue:         #00f;
-	--root-color-red:          #f00;
-	--root-color-green:        #00f900;
-	--root-color-purple:       #9437ff;
-	--root-color-gray:         #ccc;
-	--root-input-border:       #999;
-	--root-button-background:  #eee;
+	--hue:                   0;
+	--font-size:          16px;
+	--color-text:         #555;
+	--color-disabled:     #bbb;
+	--color-background:   #fff;
+	--color-border:       #333;
+	--color-link:         hsl(200, 75%, 30%);
+	--color-visited:      hsl(300, 90%, 40%);
+	--color-hover:        hsl(200, 85%, 30%);
+	--color-true:         #00f;
+	--color-false:        #f00;
+	--color-null:         #f00;
+	--color-blue:         #00f;
+	--color-red:          #f00;
+	--color-green:        #00f900;
+	--color-purple:       #9437ff;
+	--color-gray:         #ccc;
+	--input-border:       #999;
+	--button-background:  #eee;
 	--color-bg-disabled:       hsl(0, 0%, 95%);
 	--color-border-disabled:   hsl(0, 0%, 50%);
 	--table-border-color:      hsl(0, 0%, 50%);
@@ -43,18 +43,18 @@
  */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--root-color-text:         #ccc;
-		--root-color-background:   #2c2c2c;
-		--root-color-border:       #aaa;
-		--root-color-link:         hsl(200, 85%, 80%);
-		--root-color-visited:      hsl(300, 85%, 80%);
-		--root-color-hover:        hsl(200, 85%, 90%);
-		--root-color-true:         #afafff;
-		--root-color-false:        #f09090;
-		--root-color-null:         #f09090;
-		--root-color-green:        #69f041;
-		--root-color-purple:       #d070ff;
-		--args-meta-color:         hsl(0, 0%, 50%);
+		--color-text:         #ccc;
+		--color-background:   #2c2c2c;
+		--color-border:       #aaa;
+		--color-link:         hsl(200, 85%, 80%);
+		--color-visited:      hsl(300, 85%, 80%);
+		--color-hover:        hsl(200, 85%, 90%);
+		--color-true:         #afafff;
+		--color-false:        #f09090;
+		--color-null:         #f09090;
+		--color-green:        #69f041;
+		--color-purple:       #d070ff;
+		--args-meta-color:    hsl(0, 0%, 50%);
 	}
 }
 /* <?php endif; ?> */
