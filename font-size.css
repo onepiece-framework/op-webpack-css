@@ -21,10 +21,13 @@
 	 * @see https://coliss.com/articles/build-websites/operation/css/use-calc-to-change-the-height-of-a-hero-component.html
 	 * @creation  2018-11-15
 	 */
+
+	/*
 	body.body * {
 		--font-size-min:  16;
 		--font-size-max:  24;
 		--font-size-base: 16px;
 		font-size: calc(var(--font-size-base) + (var(--font-size-max) - var(--font-size-min))*(100vw - 400px)/(800 - 400));
 	}
+	*/
 }
