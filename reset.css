@@ -1,14 +1,9 @@
 
-/** op-webpack-css:/cursor.css
+/** op-webpack-css:/reset.css
  *
- * @created   2018-11-19
+ * @created   2018-04-12
  * @version   1.0
  * @package   op-webpack-css
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
-
-body.body .pointer,
-body.body .cursor.pointer {
-	cursor: pointer;
-}
