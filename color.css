@@ -58,6 +58,17 @@
 }
 
 /* <?php if( \OP\Config::Get('execute')['darkmode'] ?? true ): ?> */
+/* <?php endif; ?> */
+
+/*
+<?php
+$layout = OP()->Layout()->Name();
+$config = OP()->Config($layout);
+?>
+*/
+
+/* <?php if( $config['darkmode'] ?? true ): ?> */
+
 /** For dark mode.
  *
  * @see       https://www.webcreatorbox.com/tech/dark-mode
