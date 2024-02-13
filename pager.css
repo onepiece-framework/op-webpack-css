@@ -16,10 +16,12 @@ body.body .OP.pager span.page {
 	padding: 0.1em;
 }
 
+/*
 body.body .OP.pager span.page a,
 body.body .OP.pager span.page span.current {
 
 }
+*/
 
 /** Forward button.
  *
