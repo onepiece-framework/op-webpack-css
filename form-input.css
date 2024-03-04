@@ -1,0 +1,33 @@
+
+/** op-webpack-css:/form-input.css
+ *
+ * @created   2024-03-04
+ * @version   1.0
+ * @package   op-webpack-css
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body input[type=text] {
+	margin-top:     0.1rem;
+	margin-bottom:  0.1rem;
+	margin-left:    0.0rem;
+	margin-right:   0.1rem;
+
+	padding-top:    0.1rem;
+	padding-bottom: 0.1rem;
+	padding-left:   0.2rem;
+	padding-right:  0.2rem;
+}
+
+body.body button {
+	margin-top:     0.1rem;
+	margin-bottom:  0.1rem;
+	margin-left:    0.0rem;
+	margin-right:   0.1rem;
+
+	padding-top:    0.1rem;
+	padding-bottom: 0.1rem;
+	padding-left:   1.0rem;
+	padding-right:  1.0rem;
+}
