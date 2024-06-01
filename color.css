@@ -8,6 +8,24 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
+/*
+<?php
+//	...
+$layout   = OP()->Layout()->Name();
+$config   = OP()->Config($layout);
+$darkmode = $config['darkmode'] ?? null;
+
+//	...
+if( false ){
+	D([
+		'layout'   => $layout,
+		'config'   => $config,
+		'darkmord' => $darkmode,
+	]);
+}
+?>
+*/
+
 /** Reference sites
  * http://www.colorem.net/en/?color=red
  * https://web.havincoffee.com/css/value/color/func-hsla.html 
@@ -57,7 +75,7 @@
 	--op-color-border:       hsl(0, 0%, 30%);
 }
 
-/* <?php if( \OP\Config::Get('execute')['darkmode'] ?? true ): ?> */
+/* <?php if( $darkmode ): ?> */
 /** For dark mode.
  *
  * @see       https://www.webcreatorbox.com/tech/dark-mode
