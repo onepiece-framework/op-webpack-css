@@ -10,19 +10,7 @@
 
 /*
 <?php
-//	...
-$layout   = OP()->Layout()->Name();
-$config   = OP()->Config($layout);
-$darkmode = $config['darkmode'] ?? null;
-
-//	...
-if( false ){
-	D([
-		'layout'   => $layout,
-		'config'   => $config,
-		'darkmord' => $darkmode,
-	]);
-}
+$darkmode = OP()->Config('layout')['darkmode'] ?? null;
 ?>
 */
 
