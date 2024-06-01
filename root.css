@@ -18,9 +18,6 @@
 	--root-color-link:         hsl(200, 75%, 30%);
 	--root-color-visited:      hsl(300, 90%, 40%);
 	--root-color-hover:        hsl(200, 85%, 30%);
-	--root-color-true:         #00f;
-	--root-color-false:        #f00;
-	--root-color-null:         #f00;
 	--root-color-blue:         #00f;
 	--root-color-red:          #f00;
 	--root-color-green:        #00f900;
@@ -32,7 +29,6 @@
 	--color-border-disabled:   hsl(0, 0%, 50%);
 	--table-border-color:      hsl(0, 0%, 50%);
 	--table-background-color-stripes: hsl(0, 0%, 95%);
-	--args-meta-color:         hsl(0, 0%, 80%);
 }
 
 /* <?php if( \OP\Config::Get('execute')['darkmode'] ?? true ): ?> */
@@ -49,12 +45,8 @@
 		--root-color-link:         hsl(200, 85%, 80%);
 		--root-color-visited:      hsl(300, 85%, 80%);
 		--root-color-hover:        hsl(200, 85%, 90%);
-		--root-color-true:         #afafff;
-		--root-color-false:        #f09090;
-		--root-color-null:         #f09090;
 		--root-color-green:        #69f041;
 		--root-color-purple:       #d070ff;
-		--args-meta-color:         hsl(0, 0%, 50%);
 	}
 }
 /* <?php endif; ?> */
