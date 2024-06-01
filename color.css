@@ -73,6 +73,11 @@ if( false ){
 	--op-color-text:         hsl(0, 0%, 90%);
 	--op-color-back:         hsl(0, 0%, 10%);
 	--op-color-border:       hsl(0, 0%, 30%);
+
+	--op-color-true:         #00f;
+	--op-color-false:        #f00;
+	--op-color-null:         #f00;
+	--op-color-meta:         hsl(0, 0%, 80%);
 }
 
 /* <?php if( $darkmode ): ?> */
@@ -95,6 +100,11 @@ if( false ){
 	--op-color-text:         hsl(0, 0%, 90%);
 	--op-color-back:         hsl(0, 0%, 10%);
 	--op-color-border:       hsl(0, 0%, 50%);
+
+	--op-color-true:         #afafff;
+	--op-color-false:        #f09090;
+	--op-color-null:         #f09090;
+	--op-color-meta:         hsl(0, 0%, 50%);
 	}
 }
 /* <?php endif; ?> */
