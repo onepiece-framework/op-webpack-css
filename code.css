@@ -14,7 +14,7 @@
 	--op-code-color-border:     hsl(  0,   0%,  90%);
 }
 
-/* <?php if( \OP\Config::Get('layout')['darkmode'] ?? true ): ?> */
+/* <?php if( \OP\Config::Get('layout')['darkmode'] ?? null ): ?> */
 @media (prefers-color-scheme: dark) {
 	:root {
 	--op-code-color-text:       hsl(  0,   0%, 100%);
