@@ -13,7 +13,7 @@ body.body form.OP button,
 body.body form.OP input[type="submit"] {
 	border-radius: 0.2em;
 	background-color: #e9e9e9;
-	font-size: 9pt;
+	_font-size: 9pt;
 	user-select: none;
 }
 
