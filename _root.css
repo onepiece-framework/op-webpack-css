@@ -29,6 +29,7 @@
 	--color-border-disabled:   hsl(0, 0%, 50%);
 	--table-border-color:      hsl(0, 0%, 50%);
 	--table-background-color-stripes: hsl(0, 0%, 95%);
+	--args-meta-color:         hsl(0, 0%, 80%);
 }
 
 /* <?php if( \OP\Config::Get('execute')['darkmode'] ?? true ): ?> */
@@ -47,6 +48,7 @@
 		--root-color-hover:        hsl(200, 85%, 90%);
 		--root-color-green:        #69f041;
 		--root-color-purple:       #d070ff;
+		--args-meta-color:    hsl(0, 0%, 50%);
 	}
 }
 /* <?php endif; ?> */
