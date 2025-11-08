@@ -8,13 +8,13 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-body.body {
+body {
 	margin:  0;
 	padding: 0;
-	color:            var(--root-color-text);
-	background-color: var(--root-color-background);
-	border-color:     var(--root-color-border);
-	font-size:        var(--root-font-size);
+	color:            var(--op-color-text);
+	background-color: var(--op-color-back);
+	border-color:     var(--op-color-border);
+	font-size:        var(--op-font-size);
 	/* https://nanto.asablo.jp/blog/2022/12/09/9546683 */
 	scrollbar-gutter: auto;
 }
