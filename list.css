@@ -21,3 +21,7 @@ li {
 	line-height:  1.7rem;
 	padding-inline-start: 0;
 }
+
+li code {
+	margin-left: 0;
+}
