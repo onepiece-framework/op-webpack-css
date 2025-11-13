@@ -8,13 +8,13 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-body.body ul,
-body.body ol {
+ul,
+ol {
 	margin : 0;
 	padding: 0;
 }
 
-body.body li {
+li {
 	margin-left:  1.5rem;
 	margin-right: 0.2rem;
 	padding-inline-start: 0;
