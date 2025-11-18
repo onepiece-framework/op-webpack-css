@@ -1,0 +1,13 @@
+
+/**	op-webpack-css:/phpDocumentor.css
+ *
+ * @created   2025-11-18
+ * @version   1.0
+ * @package   op-webpack-css
+ * @author    Tomoaki Nagahara
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+#phpDocumentor a {
+	color: var(--op-color-link);
+}
