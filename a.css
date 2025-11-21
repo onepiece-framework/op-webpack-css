@@ -1,0 +1,22 @@
+
+/**	op-webpack-css:/a.css
+ *
+ * @creation  2025-11-21
+ * @version   1.0
+ * @package   op-webpack-css
+ * @author    Tomoaki Nagahara
+ * @copyright Tomoaki Nagahara All rights reserved.
+ */
+
+a {
+	color: var(--op-color-link-text);
+}
+
+a:visited {
+	color: var(--op-color-link-visit);
+}
+
+a:hover {
+	color: var(--op-color-link-hover);
+	text-decoration: none;
+}
