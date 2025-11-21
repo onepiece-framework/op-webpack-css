@@ -5,6 +5,6 @@
  * @version   1.0
  * @package   op-webpack-css
  * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All right reserved.
+ * @copyright Tomoaki Nagahara All rights reserved.
  */
 ?>
