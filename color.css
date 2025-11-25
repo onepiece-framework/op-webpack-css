@@ -71,6 +71,8 @@ $darkmode = OP()->Config('layout')['darkmode'] ?? null;
 	--op-color-false:        #f00;
 	--op-color-null:         #f00;
 	--op-color-meta:         hsl(0, 0%, 80%);
+
+	--op-color-error:        #f00;
 }
 
 /* <?php if( $darkmode ): ?> */
