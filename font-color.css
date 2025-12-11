@@ -8,35 +8,58 @@
  * @copyright Tomoaki Nagahara All rights reserved.
  */
 
-body.body .blue,
-body.body .true,
-body.body .success {
-	color: var(--root-color-true);
+.red {
+	color: var(--op-color-red);
 }
 
-body.body .red,
-body.body .null,
-body.body .false,
-body.body .fail,
-body.body .failed,
-body.body .failure,
-body.body .error {
-	color: var(--root-color-false);
+.blue {
+	color: var(--op-color-blue);
 }
 
-body.body .glay,
-body.body .gray {
-	color: gray;
+.white {
+	color: var(--op-color-white);
 }
 
-body.body .green {
-	color: green;
+.black {
+	color: var(--op-color-black);
 }
 
-body.body .purple {
-	color: purple;
+.glay,
+.gray {
+	color: var(--op-color-gray);
 }
 
-body.body .yellow {
-	color: yellow;
+.green {
+	color: var(--op-color-green);
+}
+
+.yellow {
+	color: var(--op-color-yellow);
+}
+
+.purple {
+	color: var(--op-color-purple);
+}
+
+.true {
+	color: var(--op-color-true);
+}
+
+.false {
+	color: var(--op-color-false);
+}
+
+.null {
+	color: var(--op-color-null);
+}
+
+.success {
+	color: var(--op-color-success);
+}
+
+.failure {
+	color: var(--op-color-failure);
+}
+.error {
+	color: var(--op-color-error);
 }
