@@ -1,49 +1,47 @@
 
-/** op-webpack-css:/form-button.css
+/**	op-webpack-css:/form-button.css
  *
  * @created   2018-10-26
- * @version   1.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright (C) 2018 Tomoaki Nagahara
  */
 
-body.body form.OP .button,
-body.body form.OP button,
-body.body form.OP input[type="submit"] {
+.button,
+button,
+input[type="submit"] {
 	border-radius: 0.2em;
 	background-color: #e9e9e9;
 	font-size: 9pt;
 	user-select: none;
 }
 
-body.body form.OP .button:hover:not([disabled]),
-body.body form.OP button:hover:not(:disabled),
-body.body form.OP input[type="submit"]:hover:not(:disabled) {
+.button:hover:not([disabled]),
+button:hover:not(:disabled),
+input[type="submit"]:hover:not(:disabled) {
 	border-color:     #909090;
 	background-color: #f0f0f0;
 	color: #000;
 }
 
-body.body form.OP .button:active:not([disabled]),
-body.body form.OP button:active,
-body.body form.OP input[type="submit"]:active {
+.button:active:not([disabled]),
+button:active,
+input[type="submit"]:active {
 	color:red;
 	border-color:     #606060 !important;
 	background-color: #e0e0e0 !important;
 	outline: none !important;
 }
 
-body.body form.OP .button:focus,
-body.body form.OP button:focus,
-body.body form.OP input[type="submit"]:focus {
+.button:focus,
+button:focus,
+input[type="submit"]:focus {
 	border-color:     #606060 !important;
 	outline: none !important;
 }
 
-body.body form.OP .button::-moz-focus-inner,
-body.body form.OP button::-moz-focus-inner,
-body.body form.OP input[type="submit"]::-moz-focus-inner {
+.button::-moz-focus-inner,
+button::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner {
 	border :0px;
 }
 
@@ -54,9 +52,9 @@ body.body form.OP input[type="submit"]::-moz-focus-inner {
  * <span class="button" disabled> Button </span>
  *
  */
-body.body form.OP .button[disabled],
-body.body form.OP button:disabled,
-body.body form.OP input[type="submit"]:disabled {
+.button[disabled],
+button:disabled,
+input[type="submit"]:disabled {
 	color: #999;
 	cursor: not-allowed;
 }

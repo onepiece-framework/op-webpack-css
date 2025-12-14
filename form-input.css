@@ -1,14 +1,12 @@
 
-/** op-webpack-css:/form-input.css
+/**	op-webpack-css:/form-input.css
  *
  * @created   2024-03-04
- * @version   1.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright (C) 2024 Tomoaki Nagahara
  */
 
-body.body input[type=text] {
+input[type=text] {
 	margin-top:     0.1rem;
 	margin-bottom:  0.1rem;
 	margin-left:    0.0rem;
@@ -20,7 +18,7 @@ body.body input[type=text] {
 	padding-right:  0.2rem;
 }
 
-body.body button {
+button {
 	margin-top:     0.1rem;
 	margin-bottom:  0.1rem;
 	margin-left:    0.0rem;

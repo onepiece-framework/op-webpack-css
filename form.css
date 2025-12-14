@@ -1,25 +1,23 @@
 
-/** op-webpack-css:/form.css
+/**	op-webpack-css:/form.css
  *
  * @created   2018-05-16
- * @version   1.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright (C) 2018 Tomoaki Nagahara
  */
 
-body.body form.OP input:not([type="radio"]):not([type="checkbox"]):not([type="file"]),
-body.body form.OP textarea,
-body.body form.OP button,
-body.body form.OP submit,
-body.body form.OP .button {
+input:not([type="radio"]):not([type="checkbox"]):not([type="file"]),
+textarea,
+button,
+submit,
+.button {
 	border:  1px solid var(--root-color-border);
 	margin:  0.1em 0;
 	padding: 0.2em 0.4em;
 }
 
-body.body form.OP input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
-body.body form.OP textarea {
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+textarea {
 	width: 16em;
 	font-size: inherit;
 
@@ -33,53 +31,53 @@ body.body form.OP textarea {
 	*/
 }
 
-body.body form.OP input[type="date"] {
+input[type="date"] {
 	width: 10em;
 }
 
-body.body form.OP select,
-body.body form.OP option {
+select,
+option {
 	font-size: inherit;
 }
 
-body.body form.OP textarea {
+textarea {
 	height: 4.6em;
 }
 
-body.body form.OP select[multiple] option {
+select[multiple] option {
 	padding: 0.1em 0.2em;
 }
 
-body.body form.OP input[type="radio"],
-body.body form.OP input[type="checkbox"] {
+input[type="radio"],
+input[type="checkbox"] {
 	margin-right: 0.25em;
 }
 
-body.body form.OP [readonly="readonly"] {
+[readonly="readonly"] {
 	color: #888;
 	cursor: not-allowed;
 }
 
-body.body form.OP label {
+label {
 	margin-right: 0.5em;
 }
 
-body.body form.OP input:disabled {
+input:disabled {
 	background-color: var(--color-bg-disabled);
 	border-color:     var(--color-border-disabled);
 	cursor: not-allowed;;
 } 
 
-body.body form.OP label.read-only,
-body.body form.OP input:read-only,
-body.body form.OP textarea:read-only {
+label.read-only,
+input:read-only,
+textarea:read-only {
 	color: cal( var(--root-color-text) / 2 );
 }
 
-body.body form.OP label.cursor.wait,
-body.body form.OP input.cursor.wait,
-body.body form.OP select.cursor.wait,
-body.body form.OP textarea.cursor.wait {
+label.cursor.wait,
+input.cursor.wait,
+select.cursor.wait,
+textarea.cursor.wait {
 	color: cal( var(--root-color-text) / 2 );
 	cursor: wait;
 }
