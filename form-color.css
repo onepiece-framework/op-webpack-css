@@ -1,0 +1,37 @@
+
+/**	op-webpack-css:/form-color.css
+ *
+ * @created   2026-01-29
+ * @package   op-webpack-css
+ * @copyright (C) 2018 Tomoaki Nagahara
+ */
+
+/* <?php $darkmode = OP()->Config('layout')['darkmode'] ?? null; ?> */
+
+:root {
+	--op-form-text:              hsla( 210, 10%,  15%, 1.0 );
+	--op-form-back:              hsla(   0,  0%,  98%, 1.0 );
+	--op-form-border:            hsla(   0,  0%,  30%, 0.5 );
+
+	--op-form-text-active:       hsla(   0,  0%,  30%, 1.0 );
+
+	--op-form-back-disabled:     hsla(   0,  0%,  98%, 1.0 );
+	--op-form-border-disabled:   hsla(   0,  0%,  30%, 0.5 );
+}
+
+/* <?php if( $darkmode ): ?> */
+
+@media (prefers-color-scheme: dark) {
+	:root {
+	--op-form-text:              hsla( 210, 10%,  15%, 1.0 );
+	--op-form-back:              hsla(   0,  0%,  98%, 1.0 );
+	--op-form-border:            hsla(   0,  0%,  30%, 0.5 );
+
+	--op-form-text-active:       hsla(   0,  0%,  30%, 1.0 );
+
+	--op-form-back-disabled:     hsla(   0,  0%,  98%, 1.0 );
+	--op-form-border-disabled:   hsla(   0,  0%,  30%, 0.5 );
+	}
+}
+
+/* <?php endif; ?> */
