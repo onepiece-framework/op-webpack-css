@@ -11,7 +11,7 @@ textarea,
 button,
 submit,
 .button {
-	border:  1px solid var(--root-color-border);
+	border:  1px solid var(--op-form-border);
 	margin:  0.1em 0;
 	padding: 0.2em 0.4em;
 }
@@ -63,21 +63,21 @@ label {
 }
 
 input:disabled {
-	background-color: var(--color-bg-disabled);
-	border-color:     var(--color-border-disabled);
+	background-color: var(--op-form-back-disabled);
+	border-color:     var(--op-form-border-disabled);
 	cursor: not-allowed;;
 } 
 
 label.read-only,
 input:read-only,
 textarea:read-only {
-	color: cal( var(--root-color-text) / 2 );
+	color: cal( var(--op-form-text) / 2 );
 }
 
 label.cursor.wait,
 input.cursor.wait,
 select.cursor.wait,
 textarea.cursor.wait {
-	color: cal( var(--root-color-text) / 2 );
+	color: cal( var(--op-form-text) / 2 );
 	cursor: wait;
 }
