@@ -26,7 +26,7 @@ input[type="submit"]:hover:not(:disabled) {
 .button:active:not([disabled]),
 button:active,
 input[type="submit"]:active {
-	color:red;
+	color: var(--op-form-text-active);
 	border-color:     #606060 !important;
 	background-color: #e0e0e0 !important;
 	outline: none !important;
