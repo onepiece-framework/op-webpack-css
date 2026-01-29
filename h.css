@@ -1,34 +1,33 @@
 
-/** op-webpack-css:/h.css
+/**	op-webpack-css:/h.css
  *
  * @created   2018-04-17
- * @version   1.0
+ * @license   Apache-2.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright Tomoaki Nagahara
  */
 
-body.body h1 {
+h1 {
 	font-size: 150%;
 }
 
-body.body h2 {
+h2 {
 	font-size: 140%;
 }
 
-body.body h3 {
+h3 {
 	font-size: 130%;
 }
 
-body.body h4 {
+h4 {
 	font-size: 120%;
 }
 
-body.body h5 {
+h5 {
 	font-size: 110%;
 }
 
-body.body h6 {
+h6 {
 	font-size: 100%;
 }
 
@@ -37,11 +36,11 @@ h1 {
 	margin-top: 1rem;
 }
 
-body.body h2,
-body.body h3,
-body.body h4,
-body.body h5,
-body.body h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin-top:    1.0rem;
 	margin-bottom: 0.5rem;
 }
