@@ -1,61 +1,60 @@
 
-/** op-webpack-css:/padding.css
+/**	op-webpack-css:/padding.css
  *
  * @created   2021-04-20
- * @version   1.0
+ * @license   Apache-2.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright Tomoaki Nagahara
  */
 
 /* top */
-body.body .padding.top {
+.padding.top {
 	padding-top: 1em;
 }
 
-body.body .padding.top.x2 {
+.padding.top.x2 {
 	padding-top: 2em;
 }
 
-body.body .padding.top.half {
+.padding.top.half {
 	padding-top: 0.5em;
 }
 
 /* left */
-body.body .padding.left {
+.padding.left {
 	padding-left: 1em;
 }
 
-body.body .padding.left.x2 {
+.padding.left.x2 {
 	padding-left: 2em;
 }
 
-body.body .padding.left.half {
+.padding.left.half {
 	padding-left: 0.5em;
 }
 
 /* right */
-body.body .padding.right {
+.padding.right {
 	padding-right: 1em;
 }
 
-body.body .padding.right.x2 {
+.padding.right.x2 {
 	padding-right: 2em;
 }
 
-body.body .padding.right.half {
+.padding.right.half {
 	padding-right: 0.5em;
 }
 
 /* bottom */
-body.body .padding.bottom {
+.padding.bottom {
 	padding-bottom: 1em;
 }
 
-body.body .padding.bottom.x2 {
+.padding.bottom.x2 {
 	padding-bottom: 2em;
 }
 
-body.body .padding.bottom.half {
+.padding.bottom.half {
 	padding-bottom: 0.5em;
 }
