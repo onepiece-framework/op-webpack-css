@@ -1,61 +1,60 @@
 
-/** op-webpack-css:/margin.css
+/**	op-webpack-css:/margin.css
  *
  * @created   2021-04-20
- * @version   1.0
+ * @license   Apache-2.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright Tomoaki Nagahara
  */
 
 /* top */
-body.body .margin.top {
+.margin.top {
 	margin-top: 1em;
 }
 
-body.body .margin.top.x2 {
+.margin.top.x2 {
 	margin-top: 2em;
 }
 
-body.body .margin.top.half {
+.margin.top.half {
 	margin-top: 0.5em;
 }
 
 /* left */
-body.body .margin.left {
+.margin.left {
 	margin-left: 1em;
 }
 
-body.body .margin.left.x2 {
+.margin.left.x2 {
 	margin-left: 2em;
 }
 
-body.body .margin.left.half {
+.margin.left.half {
 	margin-left: 0.5em;
 }
 
 /* right */
-body.body .margin.right {
+.margin.right {
 	margin-right: 1em;
 }
 
-body.body .margin.right.x2 {
+.margin.right.x2 {
 	margin-right: 2em;
 }
 
-body.body .margin.right.half {
+.margin.right.half {
 	margin-right: 0.5em;
 }
 
 /* bottom */
-body.body .margin.bottom {
+.margin.bottom {
 	margin-bottom: 1em;
 }
 
-body.body .margin.bottom.x2 {
+.margin.bottom.x2 {
 	margin-bottom: 2em;
 }
 
-body.body .margin.bottom.half {
+.margin.bottom.half {
 	margin-bottom: 0.5em;
 }
