@@ -1,15 +1,14 @@
 
-/** op-webpack-css:/border.css
+/**	op-webpack-css:/border.css
  *
  * @created   2018-10-31
- * @version   1.0
+ * @license   Apache-2.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright Tomoaki Nagahara
  */
 
-body.body .border:not(.none) {
-	border-color: var(--root-color-border);
+.border:not(.none) {
+	border-color: var(--op-color-border);
 	border-width: 1px;
 	border-style: solid;
 }
