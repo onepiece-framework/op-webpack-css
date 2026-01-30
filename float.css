@@ -1,29 +1,28 @@
 
-/** op-webpack-css:/float.css
+/**	op-webpack-css:/float.css
  *
  * @created   2019-04-03
- * @version   1.0
+ * @license   Apache-2.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright Tomoaki Nagahara
  */
 
-body.body .float.left {
+ .float.left {
 	float: left;
 }
 
-body.body .float.right {
+ .float.right {
 	float: right;
 }
 
-body.body .float.clear {
+ .float.clear {
 	clear: both;
 }
 
-body.body .float.clear.left {
+ .float.clear.left {
 	clear: left;
 }
 
-body.body .float.clear.right {
+ .float.clear.right {
 	clear: right;
 }
