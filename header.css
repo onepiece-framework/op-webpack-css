@@ -1,18 +1,18 @@
 
-/** op-webpack-css:/header.php
+/**	op-webpack-css:/header.php
  *
  * @created   2019-01-31
- * @version   1.0
+ * @license   Apache-2.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright Tomoaki Nagahara
  */
 
-/** "position:fixed" area will always done repaint at scroll.
+/**	"position:fixed" area will always done repaint at scroll.
  *
  * @see https://qiita.com/ttiger55/items/b2423cb72668c3c98d89
  */
-body.body .header {
+ header,
+.header {
 	will-change: transform;
 	position:    fixed;
 }
