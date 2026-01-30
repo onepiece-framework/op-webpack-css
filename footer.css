@@ -1,14 +1,13 @@
 
-/** op-webpack-css:/footer.php
+/**	op-webpack-css:/footer.php
  *
  * @created   2019-03-12
- * @version   1.0
+ * @license   Apache-2.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright Tomoaki Nagahara
  */
 
-body.body footer{
+ footer {
 	position: sticky;
 	position: -webkit-sticky;
 	bottom: 0;
