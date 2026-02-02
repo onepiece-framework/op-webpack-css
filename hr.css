@@ -1,13 +1,12 @@
 
-/** op-webpack-css:/hr.css
+/**	op-webpack-css:/hr.css
  *
  * @created   2019-12-09
- * @version   1.0
+ * @license   Apache-2.0
  * @package   op-webpack-css
- * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All rights reserved.
+ * @copyright Tomoaki Nagahara
  */
 
-body.body hr {
+hr {
 	margin: 0.5em 0;
 }
