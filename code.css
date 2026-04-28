@@ -24,6 +24,10 @@
 }
 /* <?php endif; ?> */
 
+pre, code {
+	z-index: -1;
+}
+
   code,
  .code {
 	font-family: "Courier New", Consolas, monospace;
