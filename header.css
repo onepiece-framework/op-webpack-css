@@ -13,6 +13,6 @@
  */
  header,
 .header {
-	will-change: transform;
-	position:    fixed;
+	_will-change: transform;
+	_position:    fixed;
 }
